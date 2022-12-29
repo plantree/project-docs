@@ -1,2 +1,3 @@
 # project-docs
-documentaions about personal projects
+
+Documentaions about personal projects.

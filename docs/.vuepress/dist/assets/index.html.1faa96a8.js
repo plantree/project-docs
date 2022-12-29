@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-09a44d76","path":"/soft/workplace/","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1659583500000},"filePathRelative":"soft/workplace/README.md"}');export{e as data};

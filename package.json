@@ -1,0 +1,21 @@
+{
+  "name": "projects",
+  "version": "1.0.0",
+  "description": "a hub to archive thinkings",
+  "main": "index.js",
+  "repository": "https://github.com/plantree",
+  "author": "eric.wangpy@outlook.com",
+  "license": "MIT",
+  "devDependencies": {
+    "@vuepress/plugin-search": "2.0.0-beta.49",
+    "vuepress": "2.0.0-beta.49"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  },
+  "dependencies": {
+    "vuepress-plugin-giscus": "^2.0.0-alpha.26",
+    "yarn": "^1.22.19"
+  }
+}

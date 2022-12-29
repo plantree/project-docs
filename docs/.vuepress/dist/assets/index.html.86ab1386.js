@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-eed0380c","path":"/soft/book/","title":"","lang":"en-US","frontmatter":{},"excerpt":"","headers":[],"git":{"updatedTime":1658975480000},"filePathRelative":"soft/book/README.md"}');export{e as data};
