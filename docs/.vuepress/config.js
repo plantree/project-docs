@@ -7,6 +7,7 @@ module.exports = {
     title: "Plantree's Projects",
     description: 'A hub to archive projects',
     base: '/projects/',
+    port: 9000,
 
     theme: defaultTheme({
         navbar: [
@@ -30,7 +31,7 @@ module.exports = {
         docsDir: 'docs',
         editLink: true,
         contributors: false,
-        sidebarDepth: 0,
+        sidebarDepth: 4,
 
         sidebar: [
             // Sidebar item
