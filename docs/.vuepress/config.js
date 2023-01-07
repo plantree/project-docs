@@ -6,7 +6,7 @@ const { path } = require('@vuepress/utils')
 module.exports = {
     title: "Plantree's Projects",
     description: 'A hub to archive projects',
-    base: '/projects/',
+    base: '/project-docs',
     port: 9000,
 
     theme: defaultTheme({
@@ -20,7 +20,7 @@ module.exports = {
                 children: [
                     {
                         text: 'Counter',
-                        link: '/counter/introduction.md'
+                        link: '/project/counter/introduction.md'
                     }
                 ]
             }
