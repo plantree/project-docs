@@ -8,6 +8,10 @@ module.exports = {
     description: 'A hub to archive projects',
     base: '/project-docs/',
     port: 9000,
+    head: [
+        ['link', { rel: 'shortcut icon', type: "image/x-icon", 
+            href: "https://cdn-icons-png.flaticon.com/512/148/148800.png" }]
+    ],
 
     theme: defaultTheme({
         navbar: [
@@ -21,6 +25,10 @@ module.exports = {
                     {
                         text: 'Counter',
                         link: '/counter/introduction.md'
+                    },
+                    {
+                        text: 'Visitor-badge',
+                        link: '/visitor-badge/introduction.md'
                     }
                 ]
             }
@@ -45,6 +53,15 @@ module.exports = {
                     {
                         text: 'Usage',
                         link: '/counter/usage.md'
+                    }
+                ]
+            },
+            {
+                text: 'Visitor-badge',
+                children: [
+                    {
+                        text: 'Introduction',
+                        link: '/visitor-badge/introduction.md'
                     }
                 ]
             }
