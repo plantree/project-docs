@@ -12,7 +12,7 @@
 <script type="module">
 import axios from 'axios';
 
-let url = 'http://api.counter.plantree.me';
+let url = 'https://api.counter.plantree.me';
 
 function validateNamespace(namespace) {
     if (namespace === '' || namespace.includes('@')) {

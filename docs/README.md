@@ -16,6 +16,6 @@ features:
 - title: Engineering
   details: unit tests, continuous integration, continuous deployment and maintainability
 - title: Open Source
-  details: absoulutely open source 
+  details: absolutely open source 
 footer: MIT Licensed | Copyright © 2022-present plantree
 ---
