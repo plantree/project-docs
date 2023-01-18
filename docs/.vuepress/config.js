@@ -9,9 +9,17 @@ module.exports = {
     base: '/project-docs/',
     port: 9000,
     head: [
-        ['link', { rel: 'shortcut icon', type: "image/x-icon", 
-            href: "https://cdn-icons-png.flaticon.com/512/148/148800.png" }]
+        ['link', {
+            rel: 'shortcut icon', type: "image/x-icon",
+            href: "https://cdn-icons-png.flaticon.com/512/148/148800.png"
+        }]
     ],
+    markdown: {
+        linkify: true,
+    },
+    extendsMarkdown: md => {
+        md.use(require('markdown-it-task-lists'))
+    },
 
     theme: defaultTheme({
         navbar: [
@@ -29,6 +37,10 @@ module.exports = {
                     {
                         text: 'Visitor-badge',
                         link: '/visitor-badge/introduction.md'
+                    },
+                    {
+                        text: 'Anchor',
+                        link: '/anchor/introduction.md'
                     }
                 ]
             }
@@ -64,8 +76,17 @@ module.exports = {
                         link: '/visitor-badge/introduction.md'
                     }
                 ]
+            },
+            {
+                text: 'Anchor',
+                children: [
+                    {
+                        text: 'Introduction',
+                        link: '/anchor/introduction.md'
+                    }
+                ]
             }
-        ]
+        ],
     }),
     plugins: [
         searchPlugin({
@@ -75,10 +96,10 @@ module.exports = {
             repo: 'plantree/press-comment',
             repoId: 'R_kgDOIDNWUg',
             category: 'General',
-            categoryId: 'DIC_kwDOIDNWUs4CRlY7' 
+            categoryId: 'DIC_kwDOIDNWUs4CRlY7'
         })
     ],
     alias: {
         '@theme/Page.vue': path.resolve(__dirname, './components/Page.vue'),
-      },
+    },
 }
