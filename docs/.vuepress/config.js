@@ -1,6 +1,7 @@
 const { defaultTheme } = require('@vuepress/theme-default')
 const { searchPlugin } = require('@vuepress/plugin-search')
 const { giscusPlugin } = require('vuepress-plugin-giscus')
+const { mdEnhancePlugin } = require("vuepress-plugin-md-enhance")
 const { path } = require('@vuepress/utils')
 
 module.exports = {
@@ -97,6 +98,9 @@ module.exports = {
             repoId: 'R_kgDOIDNWUg',
             category: 'General',
             categoryId: 'DIC_kwDOIDNWUs4CRlY7'
+        }),
+        mdEnhancePlugin({
+            mermaid: true
         })
     ],
     alias: {

@@ -16,8 +16,8 @@ Currently running tasks:
 
 - [x] [Tencent Careers](https://careers.tencent.com/jobopportunity.html)
 - [x] [Baidu Careers](https://talent.baidu.com/jobs/social-list)
-- [ ] [ByteDance Careers](https://jobs.bytedance.com/experienced/position)
-- [ ] [Alibaba Careers](https://talent.alibaba.com/off-campus/position-list?lang=zh)
+- [x] [ByteDance Careers](https://jobs.bytedance.com/experienced/position)
+- [x] [Alibaba Careers](https://talent.alibaba.com/off-campus/position-list?lang=zh)
 
 #### 1. Why do this
 
@@ -63,7 +63,14 @@ stateDiagram
 
 #### Changelogs
 
-##### 0.9.2 (2023-01-18)
+##### 0.9.3 (2023-01-18)
+
+###### Feature
+
+1. add alibaba-career-task and byte-dance-career-task
+2. add retry to GitHub Action
+
+##### 0.9.2 (2023-01-17)
 
 ###### Feature
 
