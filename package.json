@@ -2,6 +2,7 @@
   "name": "projects",
   "version": "1.0.0",
   "description": "a hub to archive thinkings",
+  "type": "commonjs",
   "main": "index.js",
   "repository": "https://github.com/plantree",
   "author": "eric.wangpy@outlook.com",
