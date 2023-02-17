@@ -257,7 +257,7 @@ get keys under a given namespace
 <p><strong>Request:</strong></p>
 
 <p><label for="getNamespace">Provide a Namespace: </label><input id="getNamespace" v-model="getNamespace"><span class="required"> *</span></p>
-<p><label for="getKey">Provide a Key: </label><input id="getKey" v-model="getKey" placeholder="withoud will return all"></p>
+<p><label for="getKey">Provide a Key: </label><input id="getKey" v-model="getKey" placeholder="without will return all"></p>
 
 <button @click="pvGet">Get</button>
 

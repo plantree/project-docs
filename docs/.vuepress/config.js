@@ -42,7 +42,15 @@ module.exports = {
                     {
                         text: 'Anchor',
                         link: '/anchor/introduction.md'
-                    }
+                    },
+                    {
+                        text: 'Bark-web',
+                        link: '/bark-web/introduction.md'
+                    },
+                    {
+                        text: 'ChatGPT-web',
+                        link: '/chatgpt-web/introduction.md'
+                    },
                 ]
             }
         ],
@@ -84,6 +92,24 @@ module.exports = {
                     {
                         text: 'Introduction',
                         link: '/anchor/introduction.md'
+                    }
+                ]
+            },
+            {
+                text: 'Bark-web',
+                children: [
+                    {
+                        text: 'Introduction',
+                        link: '/bark-web/introduction.md'
+                    }
+                ]
+            },
+            {
+                text: 'ChatGPT-web',
+                children: [
+                    {
+                        text: 'Introduction',
+                        link: '/chatgpt-web/introduction.md'
                     }
                 ]
             }
